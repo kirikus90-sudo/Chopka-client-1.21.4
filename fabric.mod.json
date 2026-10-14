@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "chopka_client",
+  "version": "${version}",
+  "name": "Chopka Client",
+  "description": "A customizable visual client foundation for Minecraft 1.21.4.",
+  "authors": ["Chopka"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.chopka.client.ChopkaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
